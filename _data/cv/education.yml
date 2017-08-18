@@ -1,0 +1,25 @@
+- name: MSc in Computer Science
+  school:
+    name: University of London
+    url: http://www.london.ac.uk/
+    img: http://www.london.ac.uk/fileadmin/resources/uol-templates-2012/images/logo.jpg
+    address:
+      street: Malet Street
+      postalCode: WC1E 7HU
+      locality: London
+      country: UK
+  start: 2011
+  end: 2012
+
+- name: BSc in Applied Mathematics
+  school:
+    name: Bristol University
+    url: http://www.bristol.ac.uk/
+    img: http://www.bristol.ac.uk/media-library/protected/images/uob-logo-full-colour-largest-2.png
+    address:
+      street: Tyndall Avenue,
+      postalCode: BS8 1TH
+      locality: Bristol
+      country: UK
+  start: 2011
+  end: 2012
