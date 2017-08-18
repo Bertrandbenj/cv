@@ -8,9 +8,25 @@ layout: compress
 {% include head.html %}
 
 <body>
-    <div class="wrapper">
-        {% include sidebar.html %}
-        
+    <div class="wrapper h-resume hresume" itemscope itemtype="http://schema.org/Person">
+
+        <span class="p-name" hidden>{{site.author}}</span>
+        <span class="p-title" hidden>{{page.title}}</span>
+
+        <div class="sidebar-wrapper">
+
+            {% include vcard.html %}
+
+            {% include education.html  education=site.data.cv.education %}
+
+            {% include language.html %}
+
+	          {% include interests.html %}
+
+            {% include about.html %}
+
+        </div>
+
         <div class="main-wrapper">
            
            {{content}}

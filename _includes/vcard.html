@@ -1,0 +1,88 @@
+<div class="p-contact h-card vcard">
+
+	<div class="profile-container">
+		<img class="profile-img u-photo photo" itemprop="image" alt="profile picture"
+		     src="{{site.baseurl}}/assets/images/{{site.pic}}"/>
+
+		<h1 class="name p-name p-fn fn" itemprop="name">{{site.name}}</h1>
+
+		<h3 class="tagline p-summary" itemprop="jobTitle">{{site.tagline}}</h3>
+	</div><!--//profile-container-->
+
+	<div class="contact-container container-block">
+		<ul class="list-unstyled contact-list">
+
+			{% if site.email %}
+			<li class="email">
+				<i class="fa fa-envelope"></i>
+				<a class="u-email email" itemprop="email" href="mailto:{{site.email}}">
+					{{site.email}}
+				</a>
+			</li>
+			{% endif %}
+
+			{% if site.phone %}
+			<li class="phone">
+				<i class="fa fa-phone"></i>
+				<a class="p-tel tel" itemprop="telephone" href="tel:{{site.phone}}">
+					{{site.phone}}
+				</a>
+			</li>
+			{% endif %}
+
+			{% if site.website %}
+			<li class="website">
+				<i class="fa fa-globe"></i>
+				<a class="u-url url" itemprop="url" target="_blank" href="http://{{ site.website }}">
+					{{ site.website }}
+				</a>
+			</li>
+			{% endif %}
+
+			{% if site.linkedin %}
+			<li class="linkedin">
+				<i class="fa fa-linkedin"></i>
+				<a class="u-url url" itemprop="sameAs" target="_blank" href="http://www.linkedin.com/in/{{site.linkedin}}">
+					{{site.linkedin}}
+				</a>
+			</li>
+			{% endif %}
+
+			{% if site.github %}
+			<li class="github">
+				<i class="fa fa-github"></i>
+				<a class="u-url url" itemprop="sameAs" target="_blank" href="http://github.com/{{site.github}}">
+					{{site.github}}
+				</a>
+			</li>
+			{% endif %}
+
+			{% if site.skype %}
+			<li class="skype">
+				<i class="fa fa-skype"></i>
+				<a>{{site.skype}}</a>
+			</li>
+			{% endif %}
+
+			{% if site.google %}
+			<li>
+				<i class="fa fa-google"></i>
+				<!-- rel=me is for google authorship -->
+				<a rel="me" itemprop="sameAs" target="_blank" href="https://plus.google.com/{{site.google}}">
+					{{site.google}}
+				</a>
+			</li>
+			{% endif %}
+
+			<li class="p-adr h-adr adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<i class="fa fa-map-marker"></i>
+				<span class="p-name" itemprop="name" hidden>Home</span> <!-- name of the vcard keep hidden -->
+
+				<span class="p-street-address street-address" itemprop="streetAddress" hidden>{{site.address.street}}</span>
+				<span class="p-postal-code postal-code" itemprop="postalCode">{{site.address.postalCode}}</span>
+				<span class="p-locality locality" itemprop="addressLocality">{{site.address.locality}}</span>,
+				<span class="p-country-name country-name" itemprop="addressCountry">{{site.address.country}}</span>
+			</li>
+		</ul>
+	</div><!--//contact-container-->
+</div>

@@ -1,13 +1,58 @@
- <div class="education-container container-block">
-<h2 class="container-block-title">Education</h2>
-<div class="item">
-    <h4 class="degree">MSc in Computer Science</h4>
-    <h5 class="meta">University of London</h5>
-    <div class="time">2011 - 2012</div>
-</div><!--//item-->
-<div class="item">
-    <h4 class="degree">BSc in Applied Mathematics</h4>
-    <h5 class="meta">Bristol University</h5>
-    <div class="time">2007 - 2011</div>
-</div><!--//item-->
+<div class="education-container container-block">
+	<h2 class="container-block-title">Education</h2>
+
+	{% for educ in include.education %}
+
+	<div class="item p-education h-event education vevent">
+
+		<!-- Degree's name -->
+		<h4 class="degree p-name summary">
+			{{ educ.name }}
+		</h4>
+
+		<div class="meta p-location h-card location vcard"
+		     itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+			<!-- Name & URL of the School -->
+			<a class="u-url url" itemprop="url" target="_blank"
+			   href="{{ educ.school.url }}">
+				<span itemprop="description" hidden>{{ educ.name }}</span>
+				<!-- Redundant but the resume structure is different from Person.alumniOf description -->
+				<span class="p-fn p-org fn org" itemprop="name">
+					{{ educ.school.name }}
+				</span>
+			</a>
+
+			<!-- Address of the School -->
+			<div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span class="street-address" itemprop="streetAddress" hidden>
+					{{ educ.school.address.street }}
+					<br/>
+				</span>
+				<span class="post-code" itemprop="postalCode" hidden>
+					{{ educ.school.address.postalCode  }}
+				</span>
+				<span class="locality" itemprop="addressLocality">
+					{{ educ.school.address.locality  }}
+				</span>,
+				<span class="country" itemprop="addressCountry">
+					{{ educ.school.address.country  }}
+				</span>
+			</div>
+
+			<!-- Picture for a valid hcard -->
+			<img class="photo" src="{{educ.school.img}}" alt="school" hidden/>
+
+		</div>
+
+
+		<!-- time period of the degree TODO: datetime formatting -->
+		<div class="time">
+			<time class="dt-start dtstart" datetime="{{ educ.start }}">{{ educ.start }}</time>
+			-
+			<time class="dt-end dtend" datetime="{{ educ.end }}">{{ educ.end }}</time>
+		</div>
+	</div><!--//item-->
+
+	{% endfor %}
+
 </div><!--//education-container-->

@@ -16,6 +16,11 @@ baseurl: '/online-cv' #change it according to your repository name
 name: Alan Doe
 tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+address:
+  street: Streety
+  postalCode: 012345
+  locality: The City
+  country: A Country
 
 #sidebar links
 email: hello@webjeda.com
@@ -24,7 +29,6 @@ website: blog.webjeda.com #do not add http://
 linkedin: alandoe
 github: sharu725
 twitter: '@webjeda'
-
 
 # Tracker
 analytics: UA-83979019-1
