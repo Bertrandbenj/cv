@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '/cv' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -25,7 +25,7 @@ address:
 #sidebar links
 email: bertrandbenj@gmail.com
 phone: 012 345 6789
-website: bertrandbenjamin.com/cv/ #do not add http://
+website: bertrandbenjamin.com/ #do not add http://
 linkedin: BnimajneB
 github: bertrandbenj
 
