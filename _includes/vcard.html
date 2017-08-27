@@ -74,6 +74,7 @@
 			</li>
 			{% endif %}
 
+			{% if site.address %}
 			<li class="p-adr h-adr adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 				<i class="fa fa-map-marker"></i>
 				<span class="p-name" itemprop="name" hidden>Home</span> <!-- name of the vcard keep hidden -->
@@ -83,6 +84,7 @@
 				<span class="p-locality locality" itemprop="addressLocality">{{site.address.locality}}</span>,
 				<span class="p-country-name country-name" itemprop="addressCountry">{{site.address.country}}</span>
 			</li>
+			{% endif %}
 		</ul>
 	</div><!--//contact-container-->
 </div>

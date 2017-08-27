@@ -1,7 +1,7 @@
 <div class="education-container container-block">
 	<h2 class="container-block-title">Education</h2>
 
-	{% for educ in include.education %}
+	{% for educ in educations %}
 
 	<div class="item p-education h-event education vevent">
 
@@ -47,9 +47,9 @@
 
 		<!-- time period of the degree TODO: datetime formatting -->
 		<div class="time">
-			<time class="dt-start dtstart" datetime="{{ educ.start }}">{{ educ.start }}</time>
+			<time class="dt-start dtstart" datetime="{{ educ.start }}">{{ educ.start | date: "%b %Y" }}</time>
 			-
-			<time class="dt-end dtend" datetime="{{ educ.end }}">{{ educ.end }}</time>
+			<time class="dt-end dtend" datetime="{{ educ.end }}">{{ educ.end | date: "%b %Y" }}</time>
 		</div>
 	</div><!--//item-->
 

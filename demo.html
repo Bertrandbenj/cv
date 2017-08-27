@@ -1,9 +1,10 @@
 ---
 layout: compress
 ---
-{% assign educations = site.data.cv.education %}
-{% assign experiences = site.data.cv.experience_en %}
-{% assign projects = site.data.cv.projects_en %}
+
+{% assign educations = site.data.cv.education_demo %}
+{% assign experiences = site.data.cv.experience_demo %}
+{% assign projects = site.data.cv.projects_demo %}
 
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
@@ -15,8 +16,8 @@ layout: compress
 <body>
 <div class="wrapper h-resume hresume" itemscope itemtype="http://schema.org/Person">
 
-	<span class="p-name" hidden>{{site.author}}</span>
-	<span class="p-title" hidden>{{page.title}}</span>
+	<span class="p-name" hidden>{{site.name}}</span>
+	<span class="p-title" hidden>{{site.tagline}}</span>
 
 	<div class="sidebar-wrapper">
 
@@ -49,6 +50,7 @@ layout: compress
 
 {% include scripts.html %}
 </body>
-
 </html>
+
+
 

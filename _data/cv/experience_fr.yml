@@ -1,0 +1,102 @@
+- start: 2016-01-01T10:20:00Z
+  end: Present
+  jobtitle: Developer Fullstack
+  company: BibliLend
+  companyurl: http://www.biblilend.net
+  companyloc: France
+  summary: >
+      Développement Full Stack et commercialisation d’une application de gestion de manuels scolaire à destination des associations de parents d’élèves.
+  missions:
+      - Analyse des cas d’utilisation
+      - Conception d’une base de données NoSQL avec MongoDB
+      - Développement backend avec Node JS.
+      - Développement Frontend avec JQuery, templating avec Pug.
+      - Control de version via Github
+      - Déploiement sur serveur Debian
+      - Administration du serveur
+      - Écriture des tests unitaires
+  skills: ['NodeJS', 'MongoDB', 'Git', 'Pug', 'IntelliJ', 'CSS 3', 'HTML 5', 'ES 6']
+
+
+
+- start: 2014-03-23T10:20:00Z
+  end: 2016-07-23T10:20:00Z
+  jobtitle: Developer Fullstack
+  company: Morgan Stanley
+  companyurl: https://www.morganstanley.com/
+  companyloc: Budapest
+  summary: >
+      Développement et maintenance avec astreinte dans une
+      équipe de 10 personnes pour administrer du calcul de
+      risque financier.
+  missions:
+      - Refactoring de deux applications en Java 8
+      - Large utilisation de Spring, Ant, Maven
+      - Analyse et documentation de l’existant.
+      - Production de feed, rapport extrait de KDB
+      - Ecriture d’un “crash test” mesurant la résilience d’une grille de calcul
+      - Intégration continue dans un environnement logiciel complexe via Jenkins.
+      - Mise en place d’une équipe multidisciplinaire autour d’Apache Spark
+      - Formations et présentations de Spark.
+      - Mise en production de la première application Spark dans l’entreprise
+      - Maintenance de scripts Perl, Python, Bash, Ksh
+      - Astreinte opérationnelle, support de niveau 3
+      - Contrôle des sources avec GIT et Perforce
+      - Méthodologie SCRUM, stand up meetings quotidiennement
+      - Code review systématique et requise pour la mise en production.
+  skills: ['KDB', 'Java', 'Perl', 'Python', 'Apache Spark', 'Bash', 'Jenkins', 'Jira', 'FishEye', 'Autosys', 'Eclipse', 'Scrum', 'Git', 'Perforce', 'DB2', 'Sybase']
+
+
+
+- start: 2012-03-23T10:20:00Z
+  end: 2014-02-20T10:20:00Z
+  jobtitle: Bid Manager & Automation Team Member
+  company: IBM
+  companyurl: https://www.ibm.com/hu-hu/
+  companyloc: Budapest
+  summary: >
+      Arrivé en tant que Bid manager, j’ai été transféré après quelques semaines dans une équipe informatique
+      pour automatiser certains processus manuel et répétitif. Principalement en Java, j’ai développé des
+      macros Open-Office et des applications Lotus Notes.
+  missions:
+      - Ecriture de devis pour le marché Français d’IBM
+      - Création de pricings pour ces memes contrats.
+      - Ecriture de scripts pour automatiser des tâches répétitive
+      - Re-écriture de macros Excel en Macro Open-Office java
+      - Écriture de Macros VBA pour le logiciel de reconnaissance vocal Dragon Naturally Speaking.
+      - Formation d’une équipe au B.a.-ba de la programmation Java.
+      - Formalisation des demandes du client quant aux automatisations à mettre en place.
+      - Installation et formation des utilisateurs.
+      - Analyse et synthèse d’applications Lotus Notes
+  skills: ['Lotus Notes', 'Open-Office', 'VBA', 'Dragon Naturally Speaking', 'Java', 'Eclipse']
+
+
+
+- start: 2010-09-01T10:20:00Z
+  end: 2012-09-01T10:20:00Z
+  jobtitle: Developer (Drupal)
+  company: ESN International
+  companyurl: https://esn.org/
+  companyloc: Brussels
+  summary: >
+      Développement <strong>Drupal 7</strong> d’un site web centralisant la gestion des cartes d’adhérents d’une association
+                      étudiante européenne.
+  missions:
+      - Centraliser la gestion des partenaires de centaines d’associations.
+      - Identification des différents partenariats des associations fédéré
+      - Mise en place d’un feed <strong>RSS</strong> central
+      - Collecte des feeds RSS des sites satellite
+      - Gestion des utilisateurs avec <strong>LDAP</strong>
+      - Géolocalisation des partenariats
+      - Tournage d'un film de promotion pour le programme Erasmus -
+        <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=qauFQVlTWKw" target="_blank">
+           <i class="fa fa-youtube" style="color:#CD201F;font-size:20px"></i>
+        </a>
+  skills:
+      - Drupal 7
+      - SVN
+      - wiki
+      - linux
+      - PHP
+      - Google AdWords
+      - LDAP

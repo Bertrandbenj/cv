@@ -1,0 +1,89 @@
+- start: 2016-01-01T10:20:00Z
+  end: Present
+  jobtitle: Developer Fullstack
+  company: BibliLend
+  companyurl: http://www.biblilend.net
+  companyloc: France
+  summary: >
+      Development and commercialization of an application to manage school manuals in public high schools
+  missions:
+      - Use cases analysis
+      - Design and Modelling of a NoSQL database with MongoDB
+      - Development Backend with NodeJS
+      - Development Frontend using pug, jquery, bootstrap
+      - Versionning on github
+      - Deployment on Debian
+      - Writing unit tests
+  skills: ['NodeJS', 'MongoDB', 'Git', 'Pug', 'IntelliJ', 'CSS 3', 'HTML 5', 'ES 6']
+
+
+
+- start: 2014-03-23T10:20:00Z
+  end: 2016-07-23T10:20:00Z
+  jobtitle: Developer Fullstack
+  company: Morgan Stanley
+  companyurl: https://www.morganstanley.com/
+  companyloc: Budapest
+  summary: >
+      Development and maintenance in a team of 15 persons on three continents in a team working in equity risk
+  missions:
+      - Refactoring of 2 applications to Java8
+      - Package managment using ant
+      - Large utilisation of Spring's package
+      - Management of feeds and reports extracted from KDB
+      - Scripting of a crash test and a filesystem cache for a computing grid
+      - On call support level 3
+      - Source versionning with git and perforce
+      - Daily stand up SCRUM meeting
+  skills: ['KDB', 'Java', 'Perl', 'Python', 'Apache Spark', 'Bash', 'Jenkins', 'Jira', 'FishEye', 'Autosys', 'Eclipse', 'Scrum', 'Git', 'Perforce', 'DB2', 'Sybase']
+
+
+
+- start: 2012-03-23T10:20:00Z
+  end: 2014-02-20T10:20:00Z
+  jobtitle: Bid Manager & Automation Team Member
+  company: IBM
+  companyurl: https://www.ibm.com/hu-hu/
+  companyloc: Budapest
+  summary: >
+      I started as a bid manager for the french market and quickly move to an automation team using a speech recognition software
+  missions:
+      - Preparation of contracts
+      - Managment of bids, pricing, approvals, ...
+      - Scripting macros to automate redundent tasks
+      - Translation of VBA macro to OpenOffice Java
+      - organisaton of trainings
+      - Formalizing client's need into
+      - Writing VBA macro for dragon naturally speaking.
+  skills: ['Lotus Notes', 'Open-Office', 'VBA', 'Dragon Naturally Speaking', 'Java', 'Eclipse']
+
+
+
+- start: 2010-09-01T10:20:00Z
+  end: 2012-09-01T10:20:00Z
+  jobtitle: Developer (Drupal)
+  company: ESN International
+  companyurl: https://esn.org/
+  companyloc: Brussels
+  summary: >
+      Drupal development of a website managing a student card for a european wide student organisation
+  missions:
+      - Centralization of partnerships of a federated organization
+      - Identification, classification of various partnership
+      - Collection of RSS feeds
+      - User managment using LDAP
+      - Geolocalization of partnership
+      - Shooting a movie for the ERASMUS program
+      - >
+        Tournage d'un film de promotion pour le programme Erasmus -
+        <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=qauFQVlTWKw" target="_blank">
+          <i class="fa fa-youtube" style="color:#CD201F;font-size:20px"></i>
+        </a>
+  skills:
+      - Drupal 7
+      - SVN
+      - wiki
+      - linux
+      - PHP
+      - Google AdWords
+      - LDAP

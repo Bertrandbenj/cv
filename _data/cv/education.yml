@@ -1,25 +1,64 @@
-- name: MSc in Computer Science
+- name: Master 1 Informatique
   school:
-    name: University of London
-    url: http://www.london.ac.uk/
-    img: http://www.london.ac.uk/fileadmin/resources/uol-templates-2012/images/logo.jpg
+    name: Faculté des Sciences et technologies
+    url: http://fst.univ-lorraine.fr/
+    img: http://www.univ-lorraine.fr/sites/www.univ-lorraine.fr/files/logo-universite-de-lorraine.png
     address:
-      street: Malet Street
-      postalCode: WC1E 7HU
-      locality: London
-      country: UK
+      street: Campus Aiguillettes, 54506 Vandœuvre-lès-Nancy
+      postalCode: 54000
+      locality: Nancy
+      country: France
   start: 2011
   end: 2012
 
-- name: BSc in Applied Mathematics
+- name: Licence MIAGE
   school:
-    name: Bristol University
-    url: http://www.bristol.ac.uk/
-    img: http://www.bristol.ac.uk/media-library/protected/images/uob-logo-full-colour-largest-2.png
+    name: UFR - Mathématiques & Informatique
+    url: http://www.univ-lorraine.fr/miage
+    img: http://www.univ-lorraine.fr/sites/www.univ-lorraine.fr/files/logo-universite-de-lorraine.png
     address:
-      street: Tyndall Avenue,
-      postalCode: BS8 1TH
-      locality: Bristol
-      country: UK
-  start: 2011
-  end: 2012
+      street: 13 Rue Michel Ney
+      postalCode: 54000
+      locality: Nancy
+      country: France
+  start: 2009
+  end: 2010
+
+- name: BSc Software and media engineering
+  school:
+    name: Metropolia University
+    url: http://www.metropolia.fi/en/
+    img: http://www.metropolia.fi/fileadmin/template/2015/images/logo-en.jpg
+    address:
+      street: Bulevardi 31
+      postalCode: 00180
+      locality: Helsinki
+      country: Finland
+  start: 2008
+  end: 2009
+
+- name: DUT Informatique
+  school:
+    name: IUT Charlemagne
+    url: http://iut-charlemagne.univ-lorraine.fr/
+    img: http://iut-charlemagne.univ-lorraine.fr/sites/iut-charlemagne.univ-lorraine.fr/files/logo_iut-seul.png
+    address:
+      street: 2Ter Boulevard Charlemagne
+      postalCode: 54000
+      locality: Nancy
+      country: France
+  start: 2007
+  end: 2009
+
+- name: Baccalauréat SSI option mathématiques
+  school:
+    name: Lycée Yves Thépot
+    url: http://www.lycee-thepot.org/
+    img: http://www.lycee-thepot.org/images/thepot29/logos/logo-footer.png
+    address:
+      street: 28 Avenue Yves Thépot
+      postalCode: 29000
+      locality: Quimper
+      country: France
+  start: 2005
+  end: 2007

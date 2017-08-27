@@ -1,0 +1,54 @@
+
+a[href]:after {
+    content: none !important;
+}
+
+hr{
+    display :none;
+}
+
+body, ul, div, li, strong {
+    font-size: 14pt;
+}
+
+.VidESN, .languages-container, .remove-container, .language-switch, footer, .interests-container, .dt-start {
+    display: none;
+}
+
+.p-contact {
+    position: relative;
+    float: right;
+    right: 0cm;
+    width: 160pt;
+}
+
+.p-contact li{
+    font-size: 8pt;
+}
+
+.profile-img{
+    height: 5cm;
+    border-radius: 0;
+}
+
+.education-container {
+    font-size:14pt;
+    position: relative;
+    float: left;
+    left:0cm;
+    top:1em;
+}
+
+section {
+    width:60%;
+}
+
+.item {
+    page-break-inside: avoid;
+}
+
+.experiences-section {
+    page-break-before: always;
+    font-size: 12pt;
+    width:100%;
+}

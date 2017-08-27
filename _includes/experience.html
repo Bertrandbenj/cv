@@ -5,16 +5,16 @@
     EMPLOYMENT AND EXPERIENCE
   </h2>
 
-  {% for exp in include.exps %}
+  {% for exp in experiences %}
 
     <div class="item p-experience h-event" itemprop="alumniOf" itemscope itemtype="http://schema.org/Organization">
       <div class="meta">
         <div class="upper-row">
           <h3 class="job-title p-name">{{ exp.jobtitle }}</h3>
           <div class="time">
-            <time class="dt-start" datetime="{{ exp.start }}">{{ exp.start }}</time>
+            <time class="dt-start" datetime="{{ exp.start }}">{{ exp.start | date: "%b %Y" }}</time>
             -
-            <time class="dt-end" datetime="{{ exp.end }}">{{ exp.end }}</time>
+            <time class="dt-end" datetime="{{ exp.end }}">{{ exp.end | date: "%b %Y" }}</time>
           </div>
         </div><!--//upper-row-->
         <div class="company h-card">
@@ -35,7 +35,7 @@
           {% endfor %}
         </ul>
         <strong>Environnement : </strong>
-        <p class="p-skill"><strong>{{ exp.skills }}</strong></p>
+        <p class="p-skill"><strong>{{ exp.skills | join: ', ' }}</strong></p>
       </div><!--//details-->
     </div><!--//item-->
     <hr/>

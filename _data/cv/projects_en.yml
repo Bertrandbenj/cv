@@ -1,0 +1,15 @@
+- name: Java Chess AI
+  url: #
+  tagline: A chess engine implementing min max & alpha beta algorithms on several cores
+
+- name: NantiCrawl
+  url: https://www.zepl.com/viewer/notebooks/bm90ZTovL2JlcnRyYW5kYmVuai8zODg2NTM3MDM0ZGE0ZTE3OTFkOTU2ZDcwN2U3NmQyMC9ub3RlLmpzb24
+  tagline: >
+    Data Analysis using <a href="https://spark.apache.org/">Spark</a>
+    & <a href="https://zeppelin.apache.org/">Zeppelin</a>
+    to find "Nantes" within the <a href="http://webdatacommons.org/">WebDataCommons</a>
+
+- name: Image Analysis
+  url: /ImageAnalysis/report.pdf
+  tagline: >
+    Signal analysis using matlab: Fourrier transform, filtering and an Image Forgery detection algorithm

@@ -1,0 +1,16 @@
+- name: IA d'échec
+  url: #
+  tagline: Un jeu d'echec implémentant les algorithmes min max & alpha beta sur plusieurs coeurs
+
+- name: NantiCrawl
+  url: https://www.zepl.com/viewer/notebooks/bm90ZTovL2JlcnRyYW5kYmVuai8zODg2NTM3MDM0ZGE0ZTE3OTFkOTU2ZDcwN2U3NmQyMC9ub3RlLmpzb24
+  tagline: >
+    Analyse de données avec <a href="https://spark.apache.org/">Spark</a>
+    & <a href="https://zeppelin.apache.org/">Zeppelin</a>
+    pour trouver tout les sites concernant Nantes dans le
+    <a href="http://webdatacommons.org/">WebDataCommons</a>
+
+- name: Image Analysis
+  url: /ImageAnalysis/report.pdf
+  tagline: Analyse de signal avec MatLab. transformé de fourrier, different filtres et un algorithm de détection de modifications d'images (Image forgery)
+  
