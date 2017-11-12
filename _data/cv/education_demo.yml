@@ -8,8 +8,8 @@
       postalCode: WC1E 7HU
       locality: London
       country: UK
-  start: 2011
-  end: 2012
+  start: 2011-09-01
+  end: 2012-06-01
 
 - name: BSc in Applied Mathematics
   school:
@@ -21,5 +21,5 @@
       postalCode: BS8 1TH
       locality: Bristol
       country: UK
-  start: 2011
-  end: 2012
+  start: 2011-09-01
+  end: 2012-06-01

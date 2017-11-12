@@ -1,5 +1,5 @@
 - name: Java Chess AI
-  url: #
+  url: http://bertrandbenjamin.com/projects/JeuEchec/Rapport_Projet_Jeu_Echec.pdf
   tagline: A chess engine implementing min max & alpha beta algorithms on several cores
 
 - name: NantiCrawl
@@ -10,6 +10,6 @@
     to find "Nantes" within the <a href="http://webdatacommons.org/">WebDataCommons</a>
 
 - name: Image Analysis
-  url: /ImageAnalysis/report.pdf
+  url: http://bertrandbenjamin.com/projects/ImageAnalysis/report.pdf
   tagline: >
     Signal analysis using matlab: Fourrier transform, filtering and an Image Forgery detection algorithm

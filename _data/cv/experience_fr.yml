@@ -1,9 +1,15 @@
-- start: 2017-10-02T10:20:00Z
+- start: 2017-10-02
   end: Present
   jobtitle: Consultant Big Data
-  company: Altran Ouest
-  companyurl: http://www.altran.fr
-  companyloc: Brest
+  company:
+    name: Altran Ouest
+    url: http://www.altran.fr
+    img: assets/images/Altran_Logo.svg.png
+    address:
+      street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Brest
+      country: France
   summary: >
       ETL big data pour le réseau mobile d'Orange France
   missions:
@@ -11,12 +17,18 @@
   skills: ['Spark', 'Jenkins', 'Git', 'Scala', 'IntelliJ', 'Python', 'Pig', 'Hive', 'Impala']
 
 
-- start: 2017-01-01T10:20:00Z
-  end: 2017-09-01T10:20:00Z
+- start: 2017-01-01
+  end: 2017-09-01
   jobtitle: Developer Fullstack
-  company: BibliLend
-  companyurl: http://www.biblilend.net
-  companyloc: France
+  company:
+    name: BibliLend
+    url: http://www.biblilend.net
+    img:
+    address:
+      street:
+      postalCode: 29720
+      locality: Plonéour Lanvern
+      country: France
   summary: >
       Développement Full Stack et commercialisation d’une application de gestion de manuels scolaire à destination des associations de parents d’élèves.
   missions:
@@ -32,12 +44,18 @@
 
 
 
-- start: 2014-03-23T10:20:00Z
-  end: 2016-07-23T10:20:00Z
+- start: 2014-03-23
+  end: 2016-07-23
   jobtitle: Developer Fullstack
-  company: Morgan Stanley
-  companyurl: https://www.morganstanley.com/
-  companyloc: Budapest
+  company:
+    name: Morgan Stanley
+    url: https://www.morganstanley.com/
+    img:
+    address:
+      street:
+      postalCode:
+      locality: Budapest
+      country: Hungary
   summary: >
       Développement et maintenance avec astreinte dans une
       équipe de 10 personnes pour administrer du calcul de
@@ -61,12 +79,18 @@
 
 
 
-- start: 2012-03-23T10:20:00Z
-  end: 2014-02-20T10:20:00Z
+- start: 2012-03-23
+  end: 2014-02-20
   jobtitle: Bid Manager & Automation Team Member
-  company: IBM
-  companyurl: https://www.ibm.com/hu-hu/
-  companyloc: Budapest
+  company:
+    name: IBM
+    url: https://www.ibm.com/hu-hu/
+    img:
+    address:
+      street:
+      postalCode:
+      locality: Budapest
+      country: Hungary
   summary: >
       Arrivé en tant que Bid manager, j’ai été transféré après quelques semaines dans une équipe informatique
       pour automatiser certains processus manuel et répétitif. Principalement en Java, j’ai développé des
@@ -85,12 +109,18 @@
 
 
 
-- start: 2010-09-01T10:20:00Z
-  end: 2012-09-01T10:20:00Z
+- start: 2010-09-01
+  end: 2012-09-01
   jobtitle: Developer (Drupal)
-  company: ESN International
-  companyurl: https://esn.org/
-  companyloc: Brussels
+  company:
+    name: ESN International
+    url: https://esn.org/
+    img:
+    address:
+      street:
+      postalCode:
+      locality: Brussels
+      country: Belgium
   summary: >
       Développement <strong>Drupal 7</strong> d’un site web centralisant la gestion des cartes d’adhérents d’une association
                       étudiante européenne.

@@ -1,0 +1,563 @@
+{
+  'items': [
+    {
+      'type': [
+        "h-resume"
+      ],
+      'properties': {
+       'contact': [
+          {
+            type: [
+              "h-card"
+            ],
+            properties: {
+              adr: [
+                {
+                  type: [
+                    "h-adr"
+                  ],
+                  properties: {
+                    name: [
+                      "Home"
+                    ],
+                    street-address: [
+                      "3 rue des Aveneaux"
+                    ],
+                    postal-code: [
+                      "44100"
+                    ],
+                    locality: [
+                      "Nantes"
+                    ],
+                    country-name: [
+                      "France"
+                    ]
+                  },
+                  value: "Home"
+                }
+              ],
+              name: [
+                "Bertrand Benjamin"
+              ],
+              fn: [
+                "Bertrand Benjamin"
+              ],
+              summary: [
+                "Experienced Full Stack Java, JEE Developer with interests in Big Data & Machine learning,..."
+              ],
+              tel: [
+                "0033785217247"
+              ],
+              photo: [
+                "http://bertrandbenjamin.com/images/ben.jpg"
+              ],
+              email: [
+                "mailto:bertrandbenj@gmail.com"
+              ],
+              url: [
+                "http://bertrandbenjamin.com",
+                "http://www.linkedin.com/in/BnimajneB",
+                "http://github.com/bertrandbenj"
+              ]
+            },
+            value: "Bertrand Benjamin"
+          }
+        ],
+        education: [
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              location: [
+                {
+                  type: [
+                    "h-card"
+                  ],
+                  properties: {
+                    fn: [
+                      "Faculté des Sciences et technologies"
+                    ],
+                    org: [
+                      "Faculté des Sciences et technologies"
+                    ],
+                    url: [
+                      "http://fst.univ-lorraine.fr/"
+                    ],
+                    name: [
+                      "Master 1 Informatique Faculté des Sciences et technologies Campus Aiguillettes, 54506 Vandœuvre-lès-Nancy 54000 Nancy , France school"
+                    ],
+                    photo: [
+                      "http://www.univ-lorraine.fr/sites/www.univ-lorraine.fr/files/logo-universite-de-lorraine.png"
+                    ]
+                  },
+                  value: "Master 1 Informatique Faculté des Sciences et technologies Campus Aiguillettes, 54506 Vandœuvre-lès-Nancy 54000 Nancy , France school"
+                }
+              ],
+              name: [
+                "Master 1 Informatique"
+              ],
+              start: [
+                "2011"
+              ],
+              end: [
+                "2012"
+              ]
+            },
+            value: "Master 1 Informatique"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              location: [
+                {
+                  type: [
+                    "h-card"
+                  ],
+                  properties: {
+                    fn: [
+                      "UFR - Mathématiques & Informatique"
+                    ],
+                    org: [
+                      "UFR - Mathématiques & Informatique"
+                    ],
+                    url: [
+                      "http://www.univ-lorraine.fr/miage"
+                    ],
+                    name: [
+                      "Licence MIAGE UFR - Mathématiques & Informatique 13 Rue Michel Ney 54000 Nancy , France school"
+                    ],
+                    photo: [
+                      "http://www.univ-lorraine.fr/sites/www.univ-lorraine.fr/files/logo-universite-de-lorraine.png"
+                    ]
+                  },
+                  value: "Licence MIAGE UFR - Mathématiques & Informatique 13 Rue Michel Ney 54000 Nancy , France school"
+                }
+              ],
+              name: [
+                "Licence MIAGE"
+              ],
+              start: [
+                "2009"
+              ],
+              end: [
+                "2010"
+              ]
+            },
+            value: "Licence MIAGE"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              location: [
+                {
+                  type: [
+                    "h-card"
+                  ],
+                  properties: {
+                    fn: [
+                      "Metropolia University"
+                    ],
+                    org: [
+                      "Metropolia University"
+                    ],
+                    url: [
+                      "http://www.metropolia.fi/en/"
+                    ],
+                    name: [
+                      "BSc Software and media engineering Metropolia University Bulevardi 31 00180 Helsinki , Finland school"
+                    ],
+                    photo: [
+                      "http://www.metropolia.fi/fileadmin/template/2015/images/logo-en.jpg"
+                    ]
+                  },
+                  value: "BSc Software and media engineering Metropolia University Bulevardi 31 00180 Helsinki , Finland school"
+                }
+              ],
+              name: [
+                "BSc Software and media engineering"
+              ],
+              start: [
+                "2008"
+              ],
+              end: [
+                "2009"
+              ]
+            },
+            value: "BSc Software and media engineering"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              location: [
+                {
+                  type: [
+                    "h-card"
+                  ],
+                  properties: {
+                    fn: [
+                      "IUT Charlemagne"
+                    ],
+                    org: [
+                      "IUT Charlemagne"
+                    ],
+                    url: [
+                      "http://iut-charlemagne.univ-lorraine.fr/"
+                    ],
+                    name: [
+                      "DUT Informatique IUT Charlemagne 2Ter Boulevard Charlemagne 54000 Nancy , France school"
+                    ],
+                    photo: [
+                      "http://iut-charlemagne.univ-lorraine.fr/sites/iut-charlemagne.univ-lorraine.fr/files/logo_iut-seul.png"
+                    ]
+                  },
+                  value: "DUT Informatique IUT Charlemagne 2Ter Boulevard Charlemagne 54000 Nancy , France school"
+                }
+              ],
+              name: [
+                "DUT Informatique"
+              ],
+              start: [
+                "2007"
+              ],
+              end: [
+                "2009"
+              ]
+            },
+            value: "DUT Informatique"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              location: [
+                {
+                  type: [
+                    "h-card"
+                  ],
+                  properties: {
+                    fn: [
+                      "Lycée Yves Thépot"
+                    ],
+                    org: [
+                      "Lycée Yves Thépot"
+                    ],
+                    url: [
+                      "http://www.lycee-thepot.org/"
+                    ],
+                    name: [
+                      "Baccalauréat SSI option mathématiques Lycée Yves Thépot 28 Avenue Yves Thépot 29000 Quimper , France school"
+                    ],
+                    photo: [
+                      "http://www.lycee-thepot.org/images/thepot29/logos/logo-footer.png"
+                    ]
+                  },
+                  value: "Baccalauréat SSI option mathématiques Lycée Yves Thépot 28 Avenue Yves Thépot 29000 Quimper , France school"
+                }
+              ],
+              name: [
+                "Baccalauréat SSI option mathématiques"
+              ],
+              start: [
+                "2005"
+              ],
+              end: [
+                "2007"
+              ]
+            },
+            value: "Baccalauréat SSI option mathématiques"
+          }
+        ],
+        experience: [
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              name: [
+                "DevOps (NodeJS)"
+              ],
+              summary: [
+                "Développement Full Stack et commercialisation d’une application de gestion de manuels scolaire à destination des associations de parents d’élèves.",
+                "Analyse des cas d’utilisation",
+                "Conception d’une base de données NoSQL avec MongoDB",
+                "Développement backend avec Node JS.",
+                "Développement Frontend avec JQuery, templating avec Pug.",
+                "Control de version via Github",
+                "Déploiement sur serveur Debian",
+                "Administration du serveur",
+                "Écriture des tests unitaires"
+              ],
+              skill: [
+                "NodeJS, MongoDB, Git, Pug, IntelliJ, CSS 3 , HTML 5, ES 6"
+              ],
+              start: [
+                "2017"
+              ],
+              end: [
+                "Present"
+              ]
+            },
+            children: [
+              {
+                type: [
+                  "h-card"
+                ],
+                properties: {
+                  fn: [
+                    "BibliLend"
+                  ],
+                  org: [
+                    "BibliLend"
+                  ],
+                  location: [
+                    "France"
+                  ],
+                  url: [
+                    "http://www.biblilend.net"
+                  ],
+                  name: [
+                    "BibliLend , France"
+                  ]
+                }
+              }
+            ],
+            value: "DevOps (NodeJS)"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              name: [
+                "Développeur (backend - Java)"
+              ],
+              summary: [
+                "Développement et maintenance avec astreinte dans une équipe de 10 personnes pour administrer du calcul de risque financier.",
+                "Refactoring de deux applications en Java 8",
+                "Large utilisation de Spring, Ant, Maven",
+                "Analyse et documentation de l’existant.",
+                "Production de feed, rapport extrait de KDB",
+                "Ecriture d’un “crash test” mesurant la résilience d’une grille de calcul",
+                "Intégration continue dans un environnement logiciel complexe via Jenkins.",
+                "Mise en place d’une équipe multidisciplinaire autour d’Apache Spark",
+                "Formations et présentations de Spark.",
+                "Mise en production de la première application Spark dans l’entreprise",
+                "Maintenance de scripts Perl, Python, Bash, Ksh",
+                "Astreinte opérationnelle, support de niveau 3",
+                "Contrôle des sources avec GIT et Perforce",
+                "Méthodologie SCRUM, stand up meetings quotidiennement",
+                "Code review systématique et requise pour la mise en production."
+              ],
+              skill: [
+                "KDB, Java, Perl, python, Apache Spark, Bash, Jenkins, Jira, FishEye, Autosys, Eclipse, scrum stand-up meetings, git, Perforce, DB2, Sybase"
+              ],
+              start: [
+                "2014-05"
+              ],
+              end: [
+                "2016-07"
+              ]
+            },
+            children: [
+              {
+                type: [
+                  "h-card"
+                ],
+                properties: {
+                  fn: [
+                    "Morgan Stanley"
+                  ],
+                  org: [
+                    "Morgan Stanley"
+                  ],
+                  location: [
+                    "Budapest"
+                  ],
+                  url: [
+                    "https://www.morganstanley.com/"
+                  ],
+                  name: [
+                    "Morgan Stanley , Budapest"
+                  ]
+                }
+              }
+            ],
+            value: "Développeur (backend - Java)"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              name: [
+                "Bid Manager & Automation Team Member"
+              ],
+              summary: [
+                "Arrivé en tant que Bid manager, j’ai été transféré après quelques semaines dans une équipe informatique pour automatiser certains processus manuel et répétitif. Principalement en Java, j’ai développé des macros Open-Office et des applications Lotus Notes.",
+                "Ecriture de devis pour le marché Français d’IBM",
+                "Création de pricings pour ces memes contrats.",
+                "Ecriture de scripts pour automatiser des tâches répétitive",
+                "Re-écriture de macros Excel en Macro Open-Office java",
+                "Écriture de Macros VBA pour le logiciel de reconnaissance vocal Dragon Naturally Speaking.",
+                "Formation d’une équipe au B.a.-ba de la programmation Java.",
+                "Formalisation des demandes du client quant aux automatisations à mettre en place.",
+                "Installation et formation des utilisateurs.",
+                "Analyse et synthèse d’applications Lotus Notes"
+              ],
+              skill: [
+                "Lotus Notes applications, Open-Office, VBA, Dragon Naturally Speaking, Java, eclipse"
+              ],
+              start: [
+                "2012-09"
+              ],
+              end: [
+                "2014-05"
+              ]
+            },
+            children: [
+              {
+                type: [
+                  "h-card"
+                ],
+                properties: {
+                  fn: [
+                    "IBM"
+                  ],
+                  org: [
+                    "IBM"
+                  ],
+                  location: [
+                    "Budapest"
+                  ],
+                  url: [
+                    "https://www.ibm.com/hu-hu/"
+                  ],
+                  name: [
+                    "IBM , Budapest"
+                  ]
+                }
+              }
+            ],
+            value: "Bid Manager & Automation Team Member"
+          },
+          {
+            type: [
+              "h-event"
+            ],
+            properties: {
+              name: [
+                "Developer (Drupal)"
+              ],
+              summary: [
+                "Développement Drupal 7 d’un site web centralisant la gestion des cartes d’adhérents d’une association étudiante européenne.",
+                "Centraliser la gestion des partenaires de centaines d’associations.",
+                "Identification des différents partenariats des associations fédéré",
+                "Mise en place d’un feed RSS central",
+                "Collecte des feeds RSS des sites satellite",
+                "Gestion des utilisateurs avec LDAP",
+                "Géolocalisation des partenariats",
+                "Tournage d'un film de promotion pour le programme Erasmus -"
+              ],
+              skill: [
+                "Drupal 7, SVN, wiki, linux, PHP, Google AdWords, LDAP"
+              ],
+              start: [
+                "2010"
+              ],
+              end: [
+                "2012"
+              ]
+            },
+            children: [
+              {
+                type: [
+                  "h-card"
+                ],
+                properties: {
+                  fn: [
+                    "ESN International"
+                  ],
+                  org: [
+                    "ESN International"
+                  ],
+                  location: [
+                    "Brussels"
+                  ],
+                  url: [
+                    "https://esn.org/"
+                  ],
+                  name: [
+                    "ESN International , Brussels"
+                  ]
+                }
+              }
+            ],
+            value: "Developer (Drupal)"
+          }
+        ],
+        name: [
+          "Bertrand Benjamin"
+        ],
+        title: [
+          ""
+        ],
+        skill: [
+          "English (Professional)",
+          "French (Native)",
+          "Java & JEE",
+          "KDB",
+          "HTML5 & CSS3",
+          "Javascript ES6",
+          "Apache Spark",
+          "Bash & System"
+        ]
+      }
+    }
+  ],
+  rels: {
+    shortcut: [
+      "http://bertrandbenjamin.com/favicon.ico"
+    ],
+    icon: [
+      "http://bertrandbenjamin.com/favicon.ico"
+    ],
+    stylesheet: [
+      "https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic",
+      "http://bertrandbenjamin.com/bootstrap/css/bootstrap.min.css",
+      "http://bertrandbenjamin.com/font-awesome-4.7.0/css/font-awesome.css",
+      "http://bertrandbenjamin.com/css/cv.css"
+    ],
+    profile: [
+      "http://www.w3.org/2005/11/profile",
+      "http://gmpg.org/xfn/11",
+      "http://microformats.org/profile/rel-license",
+      "http://microformats.org/profile/rel-nofollow",
+      "http://microformats.org/profile/rel-home",
+      "http://microformats.org/profile/h-resume",
+      "http://microformats.org/profile/hresume",
+      "http://microformats.org/profile/h-card",
+      "http://microformats.org/profile/h-adr",
+      "http://microformats.org/profile/h-event",
+      "http://microformats.org/profile/hcard"
+    ],
+    me: [
+      "https://plus.google.com/+BenjaminBertrandDev"
+    ]
+  },
+  debug: {
+    package: "https://packagist.org/packages/mf2/mf2",
+    version: "v0.3.2",
+    note: [
+      "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+      "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+    ]
+  }
+}

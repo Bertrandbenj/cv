@@ -6,12 +6,20 @@
 	<div class="item p-education h-event education vevent">
 
 		<!-- Degree's name -->
-		<h4 class="degree p-name summary">
+		<h4 class="degree p-name summary description">
 			{{ educ.name }}
 		</h4>
 
+		<!-- hcalendar compliance -->
+		<span class="url" hidden>{{ educ.school.url }}</span>
+
 		<div class="meta p-location h-card location vcard"
 		     itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+
+			<!-- hcalendar compliance -->
+			<span class="pricerange" hidden>0</span>
+			<span class="tel" hidden>.</span>
+
 			<!-- Name & URL of the School -->
 			<a class="u-url url" itemprop="url" target="_blank"
 			   href="{{ educ.school.url }}">
@@ -37,6 +45,7 @@
 				<span class="country" itemprop="addressCountry">
 					{{ educ.school.address.country  }}
 				</span>
+				<span class="url" hidden></span>
 			</div>
 
 			<!-- Picture for a valid hcard -->
@@ -45,11 +54,16 @@
 		</div>
 
 
-		<!-- time period of the degree TODO: datetime formatting -->
 		<div class="time">
-			<time class="dt-start dtstart" datetime="{{ educ.start }}">{{ educ.start | date: "%b %Y" }}</time>
+			<time class="dt-start dtstart" datetime="{{ educ.start }}">
+                <span class="value" hidden>{{ educ.start | date_to_xmlschema }}</span>
+                {{ educ.start | date: "%b %Y" }}
+            </time>
 			-
-			<time class="dt-end dtend" datetime="{{ educ.end }}">{{ educ.end | date: "%b %Y" }}</time>
+			<time class="dt-end dtend" datetime="{{ educ.end }}">
+                <span class="value" hidden>{{ educ.start | date_to_xmlschema }}</span>
+                {{ educ.end | date: "%b %Y" }}
+            </time>
 		</div>
 	</div><!--//item-->
 

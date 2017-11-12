@@ -7,7 +7,7 @@
 
   {% for exp in experiences %}
 
-    <div class="item p-experience h-event" itemprop="alumniOf" itemscope itemtype="http://schema.org/Organization">
+    <div class="item p-experience h-event" itemprop="{% if exp.end contains 'Present' %}memberOf{% else %}alumniOf{% endif %}" itemscope itemtype="http://schema.org/Organization">
       <div class="meta">
         <div class="upper-row">
           <h3 class="job-title p-name">{{ exp.jobtitle }}</h3>
@@ -19,10 +19,9 @@
         </div><!--//upper-row-->
         <div class="company h-card">
           <a class="p-fn p-org u-url"  target="_blank" itemprop="url"
-             href="{{ exp.companyurl }}">
-            <span class="name" itemprop="name">{{ exp.company }}</span>
-          </a>,
-          <span class="p-location">{{ exp.companyloc }}</span>
+             href="{{ exp.company.url }}">
+            <span class="name" itemprop="name">{{ exp.company.name }}</span></a>
+          <span class="p-location">{{ exp.company.address.locality }}, {{ exp.company.address.country }}</span>
         </div>
       </div><!--//meta-->
 

@@ -1,9 +1,15 @@
-- start: 2017-10-02T10:20:00Z
+- start: 2017-10-02
   end: Present
   jobtitle: Consultant Big Data
-  company: Altran Ouest
-  companyurl: http://www.altran.fr
-  companyloc: Brest
+  company:
+    name: Altran Ouest
+    url: http://www.altran.fr
+    img: assets/images/Altran_Logo.svg.png
+    address:
+      street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Brest
+      country: France
   summary: >
       ETL big on the mobile network of Orange France
   missions:
@@ -12,12 +18,18 @@
 
 
 
-- start: 2016-01-01T10:20:00Z
-  end: Present
+- start: 2016-01-01
+  end: 2017-09-01
   jobtitle: Developer Fullstack
-  company: BibliLend
-  companyurl: http://www.biblilend.net
-  companyloc: France
+  company:
+    name: BibliLend
+    url: http://www.biblilend.net
+    img:
+    address:
+      street:
+      postalCode: 29720
+      locality: Plonéour Lanvern
+      country: France
   summary: >
       Development and commercialization of an application to manage school manuals in public high schools
   missions:
@@ -32,12 +44,18 @@
 
 
 
-- start: 2014-03-23T10:20:00Z
-  end: 2016-07-23T10:20:00Z
+- start: 2014-03-23
+  end: 2016-07-23
   jobtitle: Developer Fullstack
-  company: Morgan Stanley
-  companyurl: https://www.morganstanley.com/
-  companyloc: Budapest
+  company:
+    name: Morgan Stanley
+    url: https://www.morganstanley.com/
+    img:
+    address:
+      street:
+      postalCode:
+      locality: Budapest
+      country: Hungary
   summary: >
       Development and maintenance in a team of 15 persons on three continents in a team working in equity risk
   missions:
@@ -53,12 +71,18 @@
 
 
 
-- start: 2012-03-23T10:20:00Z
-  end: 2014-02-20T10:20:00Z
+- start: 2012-03-23
+  end: 2014-02-20
   jobtitle: Bid Manager & Automation Team Member
-  company: IBM
-  companyurl: https://www.ibm.com/hu-hu/
-  companyloc: Budapest
+  company:
+    name: IBM
+    url: https://www.ibm.com/hu-hu/
+    img:
+    address:
+      street:
+      postalCode:
+      locality: Budapest
+      country: Hungary
   summary: >
       I started as a bid manager for the french market and quickly move to an automation team using a speech recognition software
   missions:
@@ -73,12 +97,18 @@
 
 
 
-- start: 2010-09-01T10:20:00Z
-  end: 2012-09-01T10:20:00Z
+- start: 2010-09-01
+  end: 2012-09-01
   jobtitle: Developer (Drupal)
-  company: ESN International
-  companyurl: https://esn.org/
-  companyloc: Brussels
+  company:
+    name: ESN International
+    url: https://esn.org/
+    img:
+    address:
+      street:
+      postalCode:
+      locality: Brussels
+      country: Belgium
   summary: >
       Drupal development of a website managing a student card for a european wide student organisation
   missions:

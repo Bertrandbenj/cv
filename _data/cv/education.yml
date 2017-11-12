@@ -8,8 +8,8 @@
       postalCode: 54000
       locality: Nancy
       country: France
-  start: 2011-09-01
-  end: 2012-06-01T12:00:00Z
+  start: 2011-09-01T10:00:00Z
+  end: 2012-06-01T10:00:00Z
 
 - name: Licence MIAGE
   school:
@@ -21,8 +21,8 @@
       postalCode: 54000
       locality: Nancy
       country: France
-  start: 2009
-  end: 2010
+  start: 2009-09-01T10:00:00Z
+  end: 2010-06-01T10:00:00Z
 
 - name: BSc Software and media engineering
   school:
@@ -34,8 +34,8 @@
       postalCode: 00180
       locality: Helsinki
       country: Finland
-  start: 2008-
-  end: 2009
+  start: 2008-09-01T10:00:00Z
+  end: 2009-06-01T10:00:00Z
 
 - name: DUT Informatique
   school:
@@ -47,8 +47,8 @@
       postalCode: 54000
       locality: Nancy
       country: France
-  start: 2007
-  end: 2009
+  start: 2007-09-01T10:00:00Z
+  end: 2009-06-01T10:00:00Z
 
 - name: Baccalauréat SSI option mathématiques
   school:
@@ -60,5 +60,5 @@
       postalCode: 29000
       locality: Quimper
       country: France
-  start: 2005
-  end: 2007
+  start: 2005-09-01T10:00:00Z
+  end: 2007-06-01T10:00:00Z
