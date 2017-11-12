@@ -8,8 +8,8 @@
       postalCode: 54000
       locality: Nancy
       country: France
-  start: 2011
-  end: 2012
+  start: 2011-09-01
+  end: 2012-06-01T12:00:00Z
 
 - name: Licence MIAGE
   school:
@@ -34,7 +34,7 @@
       postalCode: 00180
       locality: Helsinki
       country: Finland
-  start: 2008
+  start: 2008-
   end: 2009
 
 - name: DUT Informatique
