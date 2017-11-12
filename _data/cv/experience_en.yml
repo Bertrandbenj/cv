@@ -1,3 +1,17 @@
+- start: 2017-10-02T10:20:00Z
+  end: Present
+  jobtitle: Consultant Big Data
+  company: Altran Ouest
+  companyurl: http://www.altran.fr
+  companyloc: Brest
+  summary: >
+      ETL big on the mobile network of Orange France
+  missions:
+      - Pig/Hive Script refactoring to Spark
+  skills: ['Spark', 'Jenkins', 'Git', 'Scala', 'IntelliJ', 'Python', 'Pig', 'Hive', 'Impala']
+
+
+
 - start: 2016-01-01T10:20:00Z
   end: Present
   jobtitle: Developer Fullstack
