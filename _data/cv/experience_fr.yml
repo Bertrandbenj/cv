@@ -14,7 +14,11 @@
       ETL big data pour le réseau mobile d'Orange France
   missions:
       - Migration de scripts Pig/Hive vers Spark
-  skills: ['Spark', 'Jenkins', 'Git', 'Scala', 'IntelliJ', 'Python', 'Pig', 'Hive', 'Impala']
+      - Intégration continue des builds avec Maven
+      - Maintenance de projets d'ETL
+      - Développement frontend de l'IHM
+      - Écriture des tests unitaires
+  skills: ['Spark', 'Jenkins', 'Git', 'Scala', 'IntelliJ', 'Python', 'Pig', 'Hive', 'Impala', 'Maven']
 
 
 - start: 2017-01-01
