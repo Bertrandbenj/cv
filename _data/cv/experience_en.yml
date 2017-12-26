@@ -13,7 +13,11 @@
   summary: >
       ETL big on the mobile network of Orange France
   missions:
-      - Pig/Hive Script refactoring to Spark
+      - Transform Pig/Hive Script to Spark
+      - Continuous integration with Maven & Jenkins
+      - Maintenance of ETL projects
+      - Frontend development using Grails
+      - Unit testing and integration testing
   skills: ['Spark', 'Jenkins', 'Git', 'Scala', 'IntelliJ', 'Python', 'Pig', 'Hive', 'Impala']
 
 
