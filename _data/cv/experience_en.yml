@@ -1,5 +1,91 @@
-- start: 2017-10-02
+- start: 2018-03-06
   end: Present
+  jobtitle: Juniter, end to end Java Blockchain based on Duniter   
+  company:
+    name: Freelance
+    url: https://github.com/Bertrandbenj/juniter
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: XXXXX
+      locality: Utopia
+      country: Earth
+  summary: >
+      Dévelopement d'une blockchain, traduction à l'identique ou presque de duniter, la monnaie libre ğ1 
+  missions:
+      - Indexing blockchain's blocks
+      - Système d'identification décentralisé (WoT )   
+      - 2D mini RPG game 
+      - core algorithm written using pure java
+      - application glued together using Java Spring-Boots  
+  skills: ['Java', 'JavaFX', 'Git', 'deb', 'IntelliJ', 'WebSocket', 'Maven', 'Javascript']
+
+- start: 2018-04-01
+  end: 2019-01-07
+  jobtitle: Developer Java
+  company:
+    name: EIS
+    url: http://www.eis.fr
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Martigné-sur-Mayenne
+      country: France
+  summary: >
+      Protoype java-to-OWL 
+  missions:
+      - Prototypage d'un traducteur generique java - OWL. Mapping d'objets java vers des objet open-data  
+      - Maintenance sur AngularJS
+      - Maintenance java
+  skills: ['Java', 'Jenkins', 'Git', 'Angular', 'IntelliJ', 'WebSocket', 'Maven', 'Javascript']
+
+- start: 2018-04-01
+  end: 2019-01-07
+  jobtitle: Developer Java pour Arkéa
+  company:
+    name: SII
+    url: http://www.sii.fr
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Brest
+      country: France
+  summary: >
+      consultant java dans l'equipe conseillers notement sur l'agenda
+  missions:
+      - Réecriture java de l'agenda conseillers
+      - Intégration continue des builds avec git & Jenkins
+      - Maintenance d'applications conseiller 
+      - Développement frontend GWT
+      - Écriture des tests unitaires et d'intégration
+  skills: ['Java', 'Jenkins', 'Git', 'GWT', 'IntelliJ', 'WebSocket', 'Maven']
+
+
+- start: 2018-04-01
+  end: 2019-01-07
+  jobtitle: Consultant chez Logilec
+  company:
+    name: Asten
+    url: http://www.asten.fr
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Brest
+      country: France
+  summary: >
+      java support 
+  missions:
+      - gestion logistique ETL avec Talend
+      - daily agile meeting 
+  skills: ['Agile', 'ETL', 'Talend']
+
+
+
+- start: 2017-10-02
+  end: 2018-01-01
   jobtitle: Consultant Big Data
   company:
     name: Altran Ouest
