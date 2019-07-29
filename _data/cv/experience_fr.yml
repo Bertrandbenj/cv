@@ -1,5 +1,69 @@
+- start: 2018-04-01
+  end: 2019-01-07
+  jobtitle: Developer Java
+  company:
+    name: EIS
+    url: http://www.eis.fr
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Martigné-sur-Mayenne
+      country: France
+  summary: >
+      Protoype java-to-OWL 
+  missions:
+      - Prototypage d'un traducteur generique java - OWL. Mapping d'objets java vers des objet open-data  
+      - Maintenance sur AngularJS
+      - Maintenance java
+  skills: ['Java', 'Jenkins', 'Git', 'Angular', 'IntelliJ', 'WebSocket', 'Maven', 'Javascript']
+
+- start: 2018-04-01
+  end: 2019-01-07
+  jobtitle: Developer Java pour Arkéa
+  company:
+    name: SII
+    url: http://www.sii.fr
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Brest
+      country: France
+  summary: >
+      consultant java dans l'equipe conseillers notement sur l'agenda
+  missions:
+      - Réecriture java de l'agenda conseillers
+      - Intégration continue des builds avec git & Jenkins
+      - Maintenance d'applications conseiller 
+      - Développement frontend GWT
+      - Écriture des tests unitaires et d'intégration
+  skills: ['Java', 'Jenkins', 'Git', 'GWT', 'IntelliJ', 'WebSocket', 'Maven']
+
+
+- start: 2018-04-01
+  end: 2019-01-07
+  jobtitle: Consultant chez Logilec
+  company:
+    name: Asten
+    url: http://www.asten.fr
+    #img: assets/images/Altran_Logo.svg.png
+    address:
+    #  street: 300 rue Pierre Rivoalon
+      postalCode: 29200
+      locality: Brest
+      country: France
+  summary: >
+      java support 
+  missions:
+      - gestion logistique ETL avec Talend
+      - daily agile meeting 
+  skills: ['Agile', 'ETL', 'Talend']
+
+
+
 - start: 2017-10-02
-  end: Present
+  end: 2017-12-31
   jobtitle: Consultant Big Data
   company:
     name: Altran Ouest
