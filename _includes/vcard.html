@@ -31,8 +31,17 @@
 			{% endif %}
 
 			{% if site.g1 %}
-			<li class="github">
-				<i class="fa fa-globe"></i>
+			<li class="g1">
+				<style>
+					.icon {
+					    background: url('duniter_favicon.ico');
+					    height: 18px;
+					    width: 18px;
+					    display: block;
+					    /* Other styles here */
+					}
+				</style>				
+				<i class="icon"></i>
 				<a class="u-url url" itemprop="sameAs" target="_blank" href="https://g1.duniter.fr/#/app/wot/{{site.g1}}">
 					{{site.g1 | truncate: 18 }}
 				</a>
