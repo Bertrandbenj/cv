@@ -30,26 +30,6 @@
 			</li>
 			{% endif %}
 
-			{% if site.g1 %}
-			<li class="g1">
-				<style>
-					.icon {
-					    background: url('/cv/assets/images/duniter_favicon.ico');
-					    max-width:16px;
-					    max-height:16px;
-					    width: auto;
-					    height: auto;
-					    display: block;
-					    background-position: center; 
-					}
-				</style>				
-				
-				<a class="u-url url" itemprop="sameAs" target="_blank" href="https://g1.duniter.fr/#/app/wot/{{site.g1}}">
-					<i class="icon"></i> {{site.g1 | truncate: 15 }}
-				</a>
-			</li>
-			{% endif %}
-
 
 			{% if site.website %}
 			<li class="website">
@@ -106,6 +86,28 @@
 				<span class="p-country-name country-name" itemprop="addressCountry">{{site.address.country}}</span>
 			</li>
 			{% endif %}
+			
+			
+			{% if site.g1 %}
+			<li class="g1">
+				<style>
+					.icon {
+					    background: url('/cv/assets/images/duniter_favicon.ico');
+					    max-width: 16px;
+					    max-height: 16px;
+					    width: 16px;
+					    height: 16px;
+					    display: block;
+					    background-position: center; 
+					}
+				</style>				
+				
+				<a class="u-url url" itemprop="sameAs" target="_blank" href="https://g1.duniter.fr/#/app/wot/{{site.g1}}">
+					<i class="icon"></i> {{site.g1 | truncate: 15 }}
+				</a>
+			</li>
+			{% endif %}
+
 		</ul>
 	</div><!--//contact-container-->
 </div>
