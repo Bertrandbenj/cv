@@ -11,10 +11,10 @@
       locality: Utopia
       country: Earth
   summary: >
-      Dévelopement d'une blockchain, traduction à l'identique ou presque de duniter, la monnaie libre ğ1 
+      Crypto UBI development, copy of the monnaie libre ğ1  
   missions:
       - Indexing blockchain's blocks
-      - Système d'identification décentralisé (WoT )   
+      - decentralized identity system (WoT )   
       - 2D mini RPG game 
       - core algorithm written using pure java
       - application glued together using Java Spring-Boots  
@@ -35,14 +35,14 @@
   summary: >
       Protoype java-to-OWL 
   missions:
-      - Prototypage d'un traducteur generique java - OWL. Mapping d'objets java vers des objet open-data  
-      - Maintenance sur AngularJS
-      - Maintenance java
+      - Prototyping of a Java - OWL translator   
+      - Support on AngularJS
+      - Support on java
   skills: ['Java', 'Jenkins', 'Git', 'Angular', 'IntelliJ', 'WebSocket', 'Maven', 'Javascript']
 
 - start: 2018-04-01
   end: 2019-01-07
-  jobtitle: Developer Java pour Arkéa
+  jobtitle: Developer Java 
   company:
     name: SII
     url: http://www.sii.fr
@@ -53,19 +53,19 @@
       locality: Brest
       country: France
   summary: >
-      consultant java dans l'equipe conseillers notement sur l'agenda
+      Java consulting for on bank's CRM system 
   missions:
-      - Réecriture java de l'agenda conseillers
-      - Intégration continue des builds avec git & Jenkins
-      - Maintenance d'applications conseiller 
-      - Développement frontend GWT
-      - Écriture des tests unitaires et d'intégration
+      - Refactoring of the java CRM 
+      - Continuous integration using git & Jenkins
+      - Support on CRM tools
+      - Development frontend using GWT
+      - Unit tests and integration tests
   skills: ['Java', 'Jenkins', 'Git', 'GWT', 'IntelliJ', 'WebSocket', 'Maven']
 
 
 - start: 2018-04-01
   end: 2019-01-07
-  jobtitle: Consultant chez Logilec
+  jobtitle: Java & ETL consulting
   company:
     name: Asten
     url: http://www.asten.fr
@@ -78,7 +78,7 @@
   summary: >
       java support 
   missions:
-      - gestion logistique ETL avec Talend
+      - Logistic ETL using Talend
       - daily agile meeting 
   skills: ['Agile', 'ETL', 'Talend']
 
