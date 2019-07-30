@@ -35,15 +35,17 @@
 				<style>
 					.icon {
 					    background: url('/cv/assets/images/duniter_favicon.ico');
-					    height: 18px;
-					    width: 18px;
+					    max-width:16px;
+					    max-height:16px;
+					    width: auto;
+					    height: auto;
 					    display: block;
-					    /* Other styles here */
+					    background-position: center; 
 					}
 				</style>				
-				<i class="icon"></i>
+				
 				<a class="u-url url" itemprop="sameAs" target="_blank" href="https://g1.duniter.fr/#/app/wot/{{site.g1}}">
-					{{site.g1 | truncate: 18 }}
+					<i class="icon"></i> {{site.g1 | truncate: 15 }}
 				</a>
 			</li>
 			{% endif %}
