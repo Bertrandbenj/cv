@@ -1,6 +1,6 @@
 - start: 2018-03-06
   end: Present
-  jobtitle: Freelance development libre d'une blockchain java à dividende universel
+  jobtitle: Développeur blockchain
   company:
     name: Juniter
     url: https://github.com/Bertrandbenj/juniter
@@ -11,7 +11,7 @@
       locality: Utopia
       country: Earth
   summary: >
-      Dévelopement d'une blockchain, traduction à l'identique ou presque de duniter, la monnaie libre ğ1 
+      Dévelopement d'une blockchain en freelance, traduction à l'identique ou presque de duniter, la monnaie libre ğ1 
   missions:
       - Indexation des blocks de la blockchain
       - Système d'identification décentralisé (WoT )   
