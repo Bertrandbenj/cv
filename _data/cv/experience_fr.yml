@@ -1,6 +1,6 @@
 - start: 2018-03-06
   end: Present
-  jobtitle: Juniter, end to end Java Blockchain based on Duniter   
+  jobtitle: Juniter, development libre d'une blockchain java a dividende universel
   company:
     name: Freelance
     url: https://github.com/Bertrandbenj/juniter
@@ -13,16 +13,16 @@
   summary: >
       Dévelopement d'une blockchain, traduction à l'identique ou presque de duniter, la monnaie libre ğ1 
   missions:
-      - Indexing blockchain's blocks
+      - Indexation des blocks de la blockchain
       - Système d'identification décentralisé (WoT )   
       - 2D mini RPG game 
-      - core algorithm written using pure java
-      - application glued together using Java Spring-Boots  
+      - Algorithm principal écrit en pur java
+      - Usage de spring boot pour assembler les composants du projet  
   skills: ['Java', 'JavaFX', 'Git', 'deb', 'IntelliJ', 'WebSocket', 'Maven', 'Javascript']
 
 - start: 2018-04-01
   end: 2019-01-07
-  jobtitle: Developer Java
+  jobtitle: Developeur Java
   company:
     name: EIS
     url: http://www.eis.fr
@@ -33,16 +33,16 @@
       locality: Martigné-sur-Mayenne
       country: France
   summary: >
-      Protoype java-to-OWL 
+      Protoypage java-to-OWL 
   missions:
-      - Prototypage d'un traducteur generique java - OWL. Mapping d'objets java vers des objet open-data  
+      - Prototypage d'un traducteur générique java - OWL. Mapping d'objets java vers des objets open-data  
       - Maintenance sur AngularJS
       - Maintenance java
   skills: ['Java', 'Jenkins', 'Git', 'Angular', 'IntelliJ', 'WebSocket', 'Maven', 'Javascript']
 
 - start: 2018-04-01
   end: 2019-01-07
-  jobtitle: Developer Java pour Arkéa
+  jobtitle: Developeur Java pour Arkéa
   company:
     name: SII
     url: http://www.sii.fr
