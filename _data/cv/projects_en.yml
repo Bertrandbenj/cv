@@ -1,3 +1,8 @@
+
+- name: Juniter 
+  url: https://github.com/Bertrandbenj/juniter
+  tagline: End-to-End UBI blockchain written using java 
+
 - name: Java Chess AI
   url: http://bertrandbenjamin.com/projects/JeuEchec/Rapport_Projet_Jeu_Echec.pdf
   tagline: A chess engine implementing min max & alpha beta algorithms on several cores
