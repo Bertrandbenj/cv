@@ -1,8 +1,8 @@
 - start: 2018-03-06
   end: Present
-  jobtitle: Juniter, end to end Java Blockchain based on Duniter   
+  jobtitle: Freelance Open-Source development: end-to-end Java blockchain based on Duniter   
   company:
-    name: Freelance
+    name: Juniter
     url: https://github.com/Bertrandbenj/juniter
     #img: assets/images/Altran_Logo.svg.png
     address:
@@ -10,7 +10,7 @@
       postalCode: XXXXX
       locality: Utopia
       country: Earth
-  summary: >
+  summary: >demo
       Crypto UBI development, copy of the monnaie libre ğ1  
   missions:
       - Indexing blockchain's blocks
